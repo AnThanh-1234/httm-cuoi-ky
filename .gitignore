@@ -4,5 +4,4 @@
 *.env.bak
 
 # Kaggle demo artifacts
-/result/
 /.kaggle-demo/

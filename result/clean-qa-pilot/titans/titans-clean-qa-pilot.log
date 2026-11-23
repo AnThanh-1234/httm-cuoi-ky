@@ -1,0 +1,33 @@
+[{"stream_name":"stderr","time":8.515180857,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.515295431,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.515300322,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.515303188,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.201208439,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.201239356,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.201246222,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.201253514,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":24.151232202,"data":"titans /kaggle/input/notebooks/nguyenphanthanhan/titans-vi-memory-demo-run/ckpt_titans/titans_vi_memory.pt 2665 cuda\n"}
+,{"stream_name":"stderr","time":47.877795081,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":47.877856251,"data":"\n"}
+,{"stream_name":"stderr","time":47.877863789,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":59.301483909,"data":"tham số backbone (đóng băng), triệu: 494.0\n"}
+,{"stream_name":"stdout","time":100.076530449,"data":"before {'fact': np.float64(0.3), 'swapped_value': np.float64(0.28), 'window': np.float64(0.3)}\n"}
+,{"stream_name":"stdout","time":100.425697315,"data":"Gradient norm through the fact state: 0.9531398601830006\n"}
+,{"stream_name":"stdout","time":102.607239416,"data":"Step 10/80: answer loss 1.9396\n"}
+,{"stream_name":"stdout","time":104.796957784,"data":"Step 20/80: answer loss 1.4782\n"}
+,{"stream_name":"stdout","time":106.983251254,"data":"Step 30/80: answer loss 1.4058\n"}
+,{"stream_name":"stdout","time":109.18524024,"data":"Step 40/80: answer loss 1.3889\n"}
+,{"stream_name":"stdout","time":111.411601108,"data":"Step 50/80: answer loss 1.3785\n"}
+,{"stream_name":"stdout","time":113.595541469,"data":"Step 60/80: answer loss 1.3807\n"}
+,{"stream_name":"stdout","time":115.74599455,"data":"Step 70/80: answer loss 1.4510\n"}
+,{"stream_name":"stdout","time":117.897520469,"data":"Step 80/80: answer loss 1.3794\n"}
+,{"stream_name":"stdout","time":156.023172129,"data":"after {'fact': np.float64(0.17), 'swapped_value': np.float64(0.27), 'window': np.float64(0.3)}\n"}
+,{"stream_name":"stderr","time":162.241772434,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":162.241838856,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":162.397247043,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":162.397285708,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":163.220619897,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":163.319533473,"data":"[NbConvertApp] Writing 135755 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":166.160204024,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":166.827712547,"data":"[NbConvertApp] Writing 485872 bytes to __results__.html\n"}
+]

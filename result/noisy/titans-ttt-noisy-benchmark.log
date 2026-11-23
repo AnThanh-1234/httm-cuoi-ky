@@ -1,0 +1,31 @@
+[{"stream_name":"stderr","time":7.72960975,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.7296726,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.729680915,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.729684852,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.315703318,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.315744317,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.315748119,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.315750538,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":22.496834358,"data":"Checkpoint tìm thấy: {'titans': '/kaggle/input/notebooks/nguyenphanthanhan/titans-vi-memory-demo-run/ckpt_titans/titans_vi_memory.pt', 'ttt_linear': '/kaggle/input/datasets/nguyenphanthanhan/ttt-vi-memory-v2-checkpoint/ttt_linear_vi_memory.pt'}\n"}
+,{"stream_name":"stdout","time":22.86993196,"data":"device: cuda | DEBUG: False | cấu hình chung: {'seg': 256, 'n_segs': 8, 'chunk': 16, 'heads': 4}\n"}
+,{"stream_name":"stderr","time":45.705847377,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":45.705886982,"data":"\n"}
+,{"stream_name":"stderr","time":45.705897711,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":57.427268439,"data":"tham số backbone (đóng băng), triệu: 494.0\n"}
+,{"stream_name":"stdout","time":61.84504948,"data":"{'Titans': '2665 bước, best eval loss 2.8752', 'TTT-Linear': '3000 bước, best eval loss 2.8390'}\n"}
+,{"stream_name":"stdout","time":271.758544503,"data":"Distance 0: 100 pairs\n"}
+,{"stream_name":"stdout","time":599.975659886,"data":"Distance 1: 100 pairs\n"}
+,{"stream_name":"stdout","time":1059.336840124,"data":"Distance 2: 100 pairs\n"}
+,{"stream_name":"stdout","time":1801.220283491,"data":"Distance 4: 100 pairs\n"}
+,{"stream_name":"stdout","time":3026.084867533,"data":"Distance 7: 100 pairs\n"}
+,{"stream_name":"stderr","time":3032.246206424,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3032.246254351,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3032.399832676,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3032.399882134,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3033.175926783,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3033.264593677,"data":"[NbConvertApp] Writing 199398 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3035.710719743,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3036.347752086,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":3036.347789245,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":3036.348004836,"data":"[NbConvertApp] Writing 510781 bytes to __results__.html\n"}
+]
