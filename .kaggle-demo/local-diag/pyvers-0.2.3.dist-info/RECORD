@@ -1,0 +1,12 @@
+pyvers-0.2.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pyvers-0.2.3.dist-info/METADATA,sha256=pPFo_aY42fhDmy6X0XD7i-9cMefKqzFSshYd9kuWOkE,5825
+pyvers-0.2.3.dist-info/RECORD,,
+pyvers-0.2.3.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvers-0.2.3.dist-info/WHEEL,sha256=eY7nduwzv-ldUxpzbRlxwvC693Hg6PX8bWDjEHjZ_dk,88
+pyvers-0.2.3.dist-info/licenses/LICENSE,sha256=PTe4PP2mtD8v6b2v9iYMoOnw6-T3FBOjlmuuVqHb9Hw,1071
+pyvers/__init__.py,sha256=rtmIUC_QbKafGaeFYDKPKBljVLqnqCwb6nAfrsiPf20,376
+pyvers/__pycache__/__init__.cpython-310.pyc,,
+pyvers/__pycache__/backends.cpython-310.pyc,,
+pyvers/__pycache__/implement_for.cpython-310.pyc,,
+pyvers/backends.py,sha256=ktY4JNqq_P9hxmFtky8aL9YeHF4RviGfW5DTQGu7EDY,9697
+pyvers/implement_for.py,sha256=Q3qa5DVsK2wUTwagHP_Hd-GxDDCoLsSooqVnht6Lx2U,17137

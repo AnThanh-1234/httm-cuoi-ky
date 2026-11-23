@@ -1,0 +1,333 @@
+[{"stream_name":"stderr","time":11.93208433,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.932130612,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.93213759,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.93214209,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.687923259,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.687982675,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.687991711,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.687995727,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":33.697524428,"data":"device: cuda | DEBUG: False | memory: titans\n"}
+,{"stream_name":"stderr","time":68.238641448,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":68.23868548,"data":"\n"}
+,{"stream_name":"stderr","time":68.238691642,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":80.278693861,"data":"tham số backbone (đóng băng), triệu: 494.0\n"}
+,{"stream_name":"stdout","time":129.788425619,"data":"500 tài liệu (đã duyệt 216623 bài)\n"}
+,{"stream_name":"stdout","time":141.951365423,"data":"1000 tài liệu (đã duyệt 244260 bài)\n"}
+,{"stream_name":"stdout","time":154.941117267,"data":"1500 tài liệu (đã duyệt 278036 bài)\n"}
+,{"stream_name":"stdout","time":175.754268082,"data":"2000 tài liệu (đã duyệt 317614 bài)\n"}
+,{"stream_name":"stdout","time":187.40873838,"data":"2500 tài liệu (đã duyệt 320599 bài)\n"}
+,{"stream_name":"stdout","time":197.228862399,"data":"3000 tài liệu (đã duyệt 323016 bài)\n"}
+,{"stream_name":"stdout","time":206.825491898,"data":"3500 tài liệu (đã duyệt 325238 bài)\n"}
+,{"stream_name":"stdout","time":216.614752427,"data":"4000 tài liệu (đã duyệt 327535 bài)\n"}
+,{"stream_name":"stdout","time":226.657452458,"data":"4500 tài liệu (đã duyệt 329629 bài)\n"}
+,{"stream_name":"stdout","time":235.828005896,"data":"5000 tài liệu (đã duyệt 331887 bài)\n"}
+,{"stream_name":"stdout","time":244.590442314,"data":"5500 tài liệu (đã duyệt 334253 bài)\n"}
+,{"stream_name":"stdout","time":253.696191121,"data":"6000 tài liệu (đã duyệt 336570 bài)\n"}
+,{"stream_name":"stdout","time":254.354828447,"data":"train: (6000, 2048) | eval: (24, 2048) | tổng token train (triệu): 12.3\n"}
+,{"stream_name":"stdout","time":258.681633763,"data":"memory: titans | hook ở layer 12/24 | tham số được train (triệu): 1.90\n"}
+,{"stream_name":"stdout","time":258.818805569,"data":"Bắt đầu từ đầu.\n"}
+,{"stream_name":"stdout","time":266.620170587,"data":"bước 1/3000 | loss (seg\u003e=1) 2.8605 | 0.1 phút\n"}
+,{"stream_name":"stdout","time":297.741453463,"data":"bước 10/3000 | loss (seg\u003e=1) 2.9500 | 0.6 phút\n"}
+,{"stream_name":"stdout","time":333.474923685,"data":"bước 20/3000 | loss (seg\u003e=1) 3.0581 | 1.2 phút\n"}
+,{"stream_name":"stdout","time":368.688310405,"data":"bước 30/3000 | loss (seg\u003e=1) 2.9322 | 1.8 phút\n"}
+,{"stream_name":"stdout","time":404.162705601,"data":"bước 40/3000 | loss (seg\u003e=1) 2.8691 | 2.4 phút\n"}
+,{"stream_name":"stdout","time":439.894296118,"data":"bước 50/3000 | loss (seg\u003e=1) 3.0608 | 3.0 phút\n"}
+,{"stream_name":"stdout","time":475.422204486,"data":"bước 60/3000 | loss (seg\u003e=1) 2.7867 | 3.6 phút\n"}
+,{"stream_name":"stdout","time":510.553831335,"data":"bước 70/3000 | loss (seg\u003e=1) 2.9395 | 4.2 phút\n"}
+,{"stream_name":"stdout","time":545.86482141,"data":"bước 80/3000 | loss (seg\u003e=1) 2.9606 | 4.8 phút\n"}
+,{"stream_name":"stdout","time":581.135784923,"data":"bước 90/3000 | loss (seg\u003e=1) 2.8922 | 5.4 phút\n"}
+,{"stream_name":"stdout","time":616.373889071,"data":"bước 100/3000 | loss (seg\u003e=1) 2.9161 | 6.0 phút\n"}
+,{"stream_name":"stdout","time":651.890749925,"data":"bước 110/3000 | loss (seg\u003e=1) 2.9206 | 6.5 phút\n"}
+,{"stream_name":"stdout","time":687.140652147,"data":"bước 120/3000 | loss (seg\u003e=1) 2.9424 | 7.1 phút\n"}
+,{"stream_name":"stdout","time":722.748394874,"data":"bước 130/3000 | loss (seg\u003e=1) 3.0897 | 7.7 phút\n"}
+,{"stream_name":"stdout","time":757.997020129,"data":"bước 140/3000 | loss (seg\u003e=1) 2.8897 | 8.3 phút\n"}
+,{"stream_name":"stdout","time":793.271523861,"data":"bước 150/3000 | loss (seg\u003e=1) 2.8529 | 8.9 phút\n"}
+,{"stream_name":"stdout","time":828.694328984,"data":"bước 160/3000 | loss (seg\u003e=1) 3.0157 | 9.5 phút\n"}
+,{"stream_name":"stdout","time":864.28549406,"data":"bước 170/3000 | loss (seg\u003e=1) 3.0404 | 10.1 phút\n"}
+,{"stream_name":"stdout","time":899.647090457,"data":"bước 180/3000 | loss (seg\u003e=1) 2.9459 | 10.7 phút\n"}
+,{"stream_name":"stdout","time":935.367286975,"data":"bước 190/3000 | loss (seg\u003e=1) 2.9132 | 11.3 phút\n"}
+,{"stream_name":"stdout","time":970.950999024,"data":"bước 200/3000 | loss (seg\u003e=1) 2.7769 | 11.9 phút\n"}
+,{"stream_name":"stdout","time":1030.717401814,"data":"  [eval] mem 2.9054 | reset 2.9076 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0023\n"}
+,{"stream_name":"stdout","time":1065.790735485,"data":"bước 210/3000 | loss (seg\u003e=1) 2.8201 | 13.4 phút\n"}
+,{"stream_name":"stdout","time":1100.89371042,"data":"bước 220/3000 | loss (seg\u003e=1) 2.7395 | 14.0 phút\n"}
+,{"stream_name":"stdout","time":1136.226182946,"data":"bước 230/3000 | loss (seg\u003e=1) 2.8725 | 14.6 phút\n"}
+,{"stream_name":"stdout","time":1171.399499712,"data":"bước 240/3000 | loss (seg\u003e=1) 2.8650 | 15.2 phút\n"}
+,{"stream_name":"stdout","time":1206.56201776,"data":"bước 250/3000 | loss (seg\u003e=1) 3.0167 | 15.8 phút\n"}
+,{"stream_name":"stdout","time":1242.058952356,"data":"bước 260/3000 | loss (seg\u003e=1) 2.9904 | 16.4 phút\n"}
+,{"stream_name":"stdout","time":1277.615432711,"data":"bước 270/3000 | loss (seg\u003e=1) 2.9812 | 17.0 phút\n"}
+,{"stream_name":"stdout","time":1312.999297968,"data":"bước 280/3000 | loss (seg\u003e=1) 2.9350 | 17.6 phút\n"}
+,{"stream_name":"stdout","time":1348.584782099,"data":"bước 290/3000 | loss (seg\u003e=1) 2.9402 | 18.2 phút\n"}
+,{"stream_name":"stdout","time":1383.55653992,"data":"bước 300/3000 | loss (seg\u003e=1) 2.8349 | 18.7 phút\n"}
+,{"stream_name":"stdout","time":1418.590233223,"data":"bước 310/3000 | loss (seg\u003e=1) 3.0601 | 19.3 phút\n"}
+,{"stream_name":"stdout","time":1453.744227205,"data":"bước 320/3000 | loss (seg\u003e=1) 2.7607 | 19.9 phút\n"}
+,{"stream_name":"stdout","time":1488.927719062,"data":"bước 330/3000 | loss (seg\u003e=1) 2.8662 | 20.5 phút\n"}
+,{"stream_name":"stdout","time":1524.346527703,"data":"bước 340/3000 | loss (seg\u003e=1) 2.8988 | 21.1 phút\n"}
+,{"stream_name":"stdout","time":1560.193264867,"data":"bước 350/3000 | loss (seg\u003e=1) 2.9976 | 21.7 phút\n"}
+,{"stream_name":"stdout","time":1596.002504014,"data":"bước 360/3000 | loss (seg\u003e=1) 2.8526 | 22.3 phút\n"}
+,{"stream_name":"stdout","time":1631.717076291,"data":"bước 370/3000 | loss (seg\u003e=1) 2.8473 | 22.9 phút\n"}
+,{"stream_name":"stdout","time":1667.391271031,"data":"bước 380/3000 | loss (seg\u003e=1) 2.9974 | 23.5 phút\n"}
+,{"stream_name":"stdout","time":1703.115289499,"data":"bước 390/3000 | loss (seg\u003e=1) 3.0354 | 24.1 phút\n"}
+,{"stream_name":"stdout","time":1738.497986963,"data":"bước 400/3000 | loss (seg\u003e=1) 2.9658 | 24.7 phút\n"}
+,{"stream_name":"stdout","time":1798.291887807,"data":"  [eval] mem 2.9012 | reset 2.9069 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0058\n"}
+,{"stream_name":"stdout","time":1833.820080736,"data":"bước 410/3000 | loss (seg\u003e=1) 2.8952 | 26.2 phút\n"}
+,{"stream_name":"stdout","time":1869.669064395,"data":"bước 420/3000 | loss (seg\u003e=1) 3.0997 | 26.8 phút\n"}
+,{"stream_name":"stdout","time":1904.927566977,"data":"bước 430/3000 | loss (seg\u003e=1) 2.7623 | 27.4 phút\n"}
+,{"stream_name":"stdout","time":1940.232941532,"data":"bước 440/3000 | loss (seg\u003e=1) 2.9817 | 28.0 phút\n"}
+,{"stream_name":"stdout","time":1975.670101625,"data":"bước 450/3000 | loss (seg\u003e=1) 2.9257 | 28.6 phút\n"}
+,{"stream_name":"stdout","time":2010.921412568,"data":"bước 460/3000 | loss (seg\u003e=1) 2.9540 | 29.2 phút\n"}
+,{"stream_name":"stdout","time":2046.082182325,"data":"bước 470/3000 | loss (seg\u003e=1) 2.9153 | 29.8 phút\n"}
+,{"stream_name":"stdout","time":2081.158870979,"data":"bước 480/3000 | loss (seg\u003e=1) 2.8002 | 30.4 phút\n"}
+,{"stream_name":"stdout","time":2116.229407494,"data":"bước 490/3000 | loss (seg\u003e=1) 3.1203 | 31.0 phút\n"}
+,{"stream_name":"stdout","time":2151.501172969,"data":"bước 500/3000 | loss (seg\u003e=1) 3.0566 | 31.5 phút\n"}
+,{"stream_name":"stdout","time":2186.8451192,"data":"bước 510/3000 | loss (seg\u003e=1) 2.9692 | 32.1 phút\n"}
+,{"stream_name":"stdout","time":2222.394908579,"data":"bước 520/3000 | loss (seg\u003e=1) 2.9110 | 32.7 phút\n"}
+,{"stream_name":"stdout","time":2257.796335623,"data":"bước 530/3000 | loss (seg\u003e=1) 2.9414 | 33.3 phút\n"}
+,{"stream_name":"stdout","time":2293.294808003,"data":"bước 540/3000 | loss (seg\u003e=1) 3.0078 | 33.9 phút\n"}
+,{"stream_name":"stdout","time":2328.98107546,"data":"bước 550/3000 | loss (seg\u003e=1) 2.8831 | 34.5 phút\n"}
+,{"stream_name":"stdout","time":2364.46356062,"data":"bước 560/3000 | loss (seg\u003e=1) 2.8208 | 35.1 phút\n"}
+,{"stream_name":"stdout","time":2399.871468268,"data":"bước 570/3000 | loss (seg\u003e=1) 3.0581 | 35.7 phút\n"}
+,{"stream_name":"stdout","time":2435.190446611,"data":"bước 580/3000 | loss (seg\u003e=1) 2.9422 | 36.3 phút\n"}
+,{"stream_name":"stdout","time":2470.534389831,"data":"bước 590/3000 | loss (seg\u003e=1) 2.7393 | 36.9 phút\n"}
+,{"stream_name":"stdout","time":2505.917818735,"data":"bước 600/3000 | loss (seg\u003e=1) 3.0784 | 37.4 phút\n"}
+,{"stream_name":"stdout","time":2565.647349617,"data":"  [eval] mem 2.9000 | reset 2.9066 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0066\n"}
+,{"stream_name":"stdout","time":2601.080341292,"data":"bước 610/3000 | loss (seg\u003e=1) 3.0509 | 39.0 phút\n"}
+,{"stream_name":"stdout","time":2636.432446448,"data":"bước 620/3000 | loss (seg\u003e=1) 2.7557 | 39.6 phút\n"}
+,{"stream_name":"stdout","time":2671.616010431,"data":"bước 630/3000 | loss (seg\u003e=1) 2.9081 | 40.2 phút\n"}
+,{"stream_name":"stdout","time":2706.816735995,"data":"bước 640/3000 | loss (seg\u003e=1) 2.9765 | 40.8 phút\n"}
+,{"stream_name":"stdout","time":2742.084228522,"data":"bước 650/3000 | loss (seg\u003e=1) 2.9230 | 41.4 phút\n"}
+,{"stream_name":"stdout","time":2777.370054515,"data":"bước 660/3000 | loss (seg\u003e=1) 2.9811 | 42.0 phút\n"}
+,{"stream_name":"stdout","time":2812.572227201,"data":"bước 670/3000 | loss (seg\u003e=1) 2.7296 | 42.6 phút\n"}
+,{"stream_name":"stdout","time":2847.892623045,"data":"bước 680/3000 | loss (seg\u003e=1) 2.9379 | 43.1 phút\n"}
+,{"stream_name":"stdout","time":2883.155944096,"data":"bước 690/3000 | loss (seg\u003e=1) 2.9015 | 43.7 phút\n"}
+,{"stream_name":"stdout","time":2918.502012316,"data":"bước 700/3000 | loss (seg\u003e=1) 2.9207 | 44.3 phút\n"}
+,{"stream_name":"stdout","time":2953.952128331,"data":"bước 710/3000 | loss (seg\u003e=1) 3.1222 | 44.9 phút\n"}
+,{"stream_name":"stdout","time":2989.987838799,"data":"bước 720/3000 | loss (seg\u003e=1) 2.9906 | 45.5 phút\n"}
+,{"stream_name":"stdout","time":3025.226094379,"data":"bước 730/3000 | loss (seg\u003e=1) 2.7255 | 46.1 phút\n"}
+,{"stream_name":"stdout","time":3060.622272993,"data":"bước 740/3000 | loss (seg\u003e=1) 2.8896 | 46.7 phút\n"}
+,{"stream_name":"stdout","time":3095.83786943,"data":"bước 750/3000 | loss (seg\u003e=1) 2.7320 | 47.3 phút\n"}
+,{"stream_name":"stdout","time":3130.961173952,"data":"bước 760/3000 | loss (seg\u003e=1) 2.9810 | 47.9 phút\n"}
+,{"stream_name":"stdout","time":3166.304399935,"data":"bước 770/3000 | loss (seg\u003e=1) 2.9212 | 48.5 phút\n"}
+,{"stream_name":"stdout","time":3201.741936222,"data":"bước 780/3000 | loss (seg\u003e=1) 2.9743 | 49.0 phút\n"}
+,{"stream_name":"stdout","time":3237.134829295,"data":"bước 790/3000 | loss (seg\u003e=1) 2.9041 | 49.6 phút\n"}
+,{"stream_name":"stdout","time":3272.354157276,"data":"bước 800/3000 | loss (seg\u003e=1) 3.0400 | 50.2 phút\n"}
+,{"stream_name":"stdout","time":3331.88808744,"data":"  [eval] mem 2.9024 | reset 2.9051 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0027\n"}
+,{"stream_name":"stdout","time":3367.132625761,"data":"bước 810/3000 | loss (seg\u003e=1) 3.0120 | 51.8 phút\n"}
+,{"stream_name":"stdout","time":3402.488699536,"data":"bước 820/3000 | loss (seg\u003e=1) 2.8629 | 52.4 phút\n"}
+,{"stream_name":"stdout","time":3437.75674595,"data":"bước 830/3000 | loss (seg\u003e=1) 2.7937 | 53.0 phút\n"}
+,{"stream_name":"stdout","time":3473.18588729,"data":"bước 840/3000 | loss (seg\u003e=1) 2.9466 | 53.6 phút\n"}
+,{"stream_name":"stdout","time":3508.57808249,"data":"bước 850/3000 | loss (seg\u003e=1) 2.9610 | 54.2 phút\n"}
+,{"stream_name":"stdout","time":3543.897018848,"data":"bước 860/3000 | loss (seg\u003e=1) 2.8966 | 54.7 phút\n"}
+,{"stream_name":"stdout","time":3579.259156713,"data":"bước 870/3000 | loss (seg\u003e=1) 2.8856 | 55.3 phút\n"}
+,{"stream_name":"stdout","time":3614.779228009,"data":"bước 880/3000 | loss (seg\u003e=1) 2.9360 | 55.9 phút\n"}
+,{"stream_name":"stdout","time":3650.195189022,"data":"bước 890/3000 | loss (seg\u003e=1) 2.9182 | 56.5 phút\n"}
+,{"stream_name":"stdout","time":3685.845314166,"data":"bước 900/3000 | loss (seg\u003e=1) 2.9329 | 57.1 phút\n"}
+,{"stream_name":"stdout","time":3721.289731536,"data":"bước 910/3000 | loss (seg\u003e=1) 2.9283 | 57.7 phút\n"}
+,{"stream_name":"stdout","time":3756.698201445,"data":"bước 920/3000 | loss (seg\u003e=1) 3.0074 | 58.3 phút\n"}
+,{"stream_name":"stdout","time":3792.426037677,"data":"bước 930/3000 | loss (seg\u003e=1) 2.9018 | 58.9 phút\n"}
+,{"stream_name":"stdout","time":3828.011104094,"data":"bước 940/3000 | loss (seg\u003e=1) 3.0267 | 59.5 phút\n"}
+,{"stream_name":"stdout","time":3863.720887134,"data":"bước 950/3000 | loss (seg\u003e=1) 2.8308 | 60.1 phút\n"}
+,{"stream_name":"stdout","time":3899.202613633,"data":"bước 960/3000 | loss (seg\u003e=1) 2.9620 | 60.7 phút\n"}
+,{"stream_name":"stdout","time":3934.600832205,"data":"bước 970/3000 | loss (seg\u003e=1) 2.7751 | 61.3 phút\n"}
+,{"stream_name":"stdout","time":3969.973900799,"data":"bước 980/3000 | loss (seg\u003e=1) 3.0188 | 61.8 phút\n"}
+,{"stream_name":"stdout","time":4005.366626722,"data":"bước 990/3000 | loss (seg\u003e=1) 2.7830 | 62.4 phút\n"}
+,{"stream_name":"stdout","time":4040.819207713,"data":"bước 1000/3000 | loss (seg\u003e=1) 2.7021 | 63.0 phút\n"}
+,{"stream_name":"stdout","time":4100.460867917,"data":"  [eval] mem 2.8961 | reset 2.8991 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0030\n"}
+,{"stream_name":"stdout","time":4136.085145895,"data":"bước 1010/3000 | loss (seg\u003e=1) 2.8351 | 64.6 phút\n"}
+,{"stream_name":"stdout","time":4171.783111357,"data":"bước 1020/3000 | loss (seg\u003e=1) 2.9290 | 65.2 phút\n"}
+,{"stream_name":"stdout","time":4207.451157986,"data":"bước 1030/3000 | loss (seg\u003e=1) 3.0645 | 65.8 phút\n"}
+,{"stream_name":"stdout","time":4243.167653208,"data":"bước 1040/3000 | loss (seg\u003e=1) 2.9634 | 66.4 phút\n"}
+,{"stream_name":"stdout","time":4278.62108527,"data":"bước 1050/3000 | loss (seg\u003e=1) 2.8214 | 67.0 phút\n"}
+,{"stream_name":"stdout","time":4314.242311463,"data":"bước 1060/3000 | loss (seg\u003e=1) 3.0359 | 67.6 phút\n"}
+,{"stream_name":"stdout","time":4349.905359596,"data":"bước 1070/3000 | loss (seg\u003e=1) 2.7592 | 68.2 phút\n"}
+,{"stream_name":"stdout","time":4385.81972887,"data":"bước 1080/3000 | loss (seg\u003e=1) 2.9062 | 68.8 phút\n"}
+,{"stream_name":"stdout","time":4421.470354048,"data":"bước 1090/3000 | loss (seg\u003e=1) 2.9204 | 69.4 phút\n"}
+,{"stream_name":"stdout","time":4457.285221042,"data":"bước 1100/3000 | loss (seg\u003e=1) 2.9093 | 70.0 phút\n"}
+,{"stream_name":"stdout","time":4492.919372727,"data":"bước 1110/3000 | loss (seg\u003e=1) 2.9172 | 70.6 phút\n"}
+,{"stream_name":"stdout","time":4528.365557739,"data":"bước 1120/3000 | loss (seg\u003e=1) 2.8756 | 71.2 phút\n"}
+,{"stream_name":"stdout","time":4563.919498192,"data":"bước 1130/3000 | loss (seg\u003e=1) 2.7748 | 71.7 phút\n"}
+,{"stream_name":"stdout","time":4599.35485223,"data":"bước 1140/3000 | loss (seg\u003e=1) 3.0055 | 72.3 phút\n"}
+,{"stream_name":"stdout","time":4634.547782508,"data":"bước 1150/3000 | loss (seg\u003e=1) 2.8021 | 72.9 phút\n"}
+,{"stream_name":"stdout","time":4669.952938322,"data":"bước 1160/3000 | loss (seg\u003e=1) 2.9992 | 73.5 phút\n"}
+,{"stream_name":"stdout","time":4705.237058361,"data":"bước 1170/3000 | loss (seg\u003e=1) 2.8490 | 74.1 phút\n"}
+,{"stream_name":"stdout","time":4740.534633923,"data":"bước 1180/3000 | loss (seg\u003e=1) 2.8461 | 74.7 phút\n"}
+,{"stream_name":"stdout","time":4775.942338038,"data":"bước 1190/3000 | loss (seg\u003e=1) 2.8396 | 75.3 phút\n"}
+,{"stream_name":"stdout","time":4811.211060528,"data":"bước 1200/3000 | loss (seg\u003e=1) 2.9743 | 75.9 phút\n"}
+,{"stream_name":"stdout","time":4870.81335001,"data":"  [eval] mem 2.8935 | reset 2.8988 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0053\n"}
+,{"stream_name":"stdout","time":4905.797895907,"data":"bước 1210/3000 | loss (seg\u003e=1) 2.8564 | 77.4 phút\n"}
+,{"stream_name":"stdout","time":4941.06768102,"data":"bước 1220/3000 | loss (seg\u003e=1) 3.0630 | 78.0 phút\n"}
+,{"stream_name":"stdout","time":4976.212707307,"data":"bước 1230/3000 | loss (seg\u003e=1) 2.8480 | 78.6 phút\n"}
+,{"stream_name":"stdout","time":5011.509512838,"data":"bước 1240/3000 | loss (seg\u003e=1) 2.8777 | 79.2 phút\n"}
+,{"stream_name":"stdout","time":5046.742443243,"data":"bước 1250/3000 | loss (seg\u003e=1) 2.7836 | 79.8 phút\n"}
+,{"stream_name":"stdout","time":5082.457848989,"data":"bước 1260/3000 | loss (seg\u003e=1) 2.9576 | 80.4 phút\n"}
+,{"stream_name":"stdout","time":5117.713639095,"data":"bước 1270/3000 | loss (seg\u003e=1) 2.9970 | 81.0 phút\n"}
+,{"stream_name":"stdout","time":5152.950915155,"data":"bước 1280/3000 | loss (seg\u003e=1) 2.9637 | 81.6 phút\n"}
+,{"stream_name":"stdout","time":5188.734336033,"data":"bước 1290/3000 | loss (seg\u003e=1) 2.9611 | 82.2 phút\n"}
+,{"stream_name":"stdout","time":5224.27438458,"data":"bước 1300/3000 | loss (seg\u003e=1) 3.0521 | 82.8 phút\n"}
+,{"stream_name":"stdout","time":5259.818187507,"data":"bước 1310/3000 | loss (seg\u003e=1) 2.9264 | 83.3 phút\n"}
+,{"stream_name":"stdout","time":5295.200051623,"data":"bước 1320/3000 | loss (seg\u003e=1) 2.6874 | 83.9 phút\n"}
+,{"stream_name":"stdout","time":5330.761729522,"data":"bước 1330/3000 | loss (seg\u003e=1) 2.9609 | 84.5 phút\n"}
+,{"stream_name":"stdout","time":5366.177786333,"data":"bước 1340/3000 | loss (seg\u003e=1) 2.8816 | 85.1 phút\n"}
+,{"stream_name":"stdout","time":5401.77981641,"data":"bước 1350/3000 | loss (seg\u003e=1) 2.8654 | 85.7 phút\n"}
+,{"stream_name":"stdout","time":5437.395515421,"data":"bước 1360/3000 | loss (seg\u003e=1) 2.9809 | 86.3 phút\n"}
+,{"stream_name":"stdout","time":5473.254725578,"data":"bước 1370/3000 | loss (seg\u003e=1) 2.9542 | 86.9 phút\n"}
+,{"stream_name":"stdout","time":5508.945741955,"data":"bước 1380/3000 | loss (seg\u003e=1) 3.0022 | 87.5 phút\n"}
+,{"stream_name":"stdout","time":5544.55893762,"data":"bước 1390/3000 | loss (seg\u003e=1) 2.9641 | 88.1 phút\n"}
+,{"stream_name":"stdout","time":5580.186252173,"data":"bước 1400/3000 | loss (seg\u003e=1) 2.9642 | 88.7 phút\n"}
+,{"stream_name":"stdout","time":5640.116099272,"data":"  [eval] mem 2.8902 | reset 2.8959 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0057\n"}
+,{"stream_name":"stdout","time":5675.466076885,"data":"bước 1410/3000 | loss (seg\u003e=1) 3.0562 | 90.3 phút\n"}
+,{"stream_name":"stdout","time":5711.072211238,"data":"bước 1420/3000 | loss (seg\u003e=1) 3.0125 | 90.9 phút\n"}
+,{"stream_name":"stdout","time":5746.810220804,"data":"bước 1430/3000 | loss (seg\u003e=1) 2.8573 | 91.5 phút\n"}
+,{"stream_name":"stdout","time":5782.047522083,"data":"bước 1440/3000 | loss (seg\u003e=1) 2.8058 | 92.0 phút\n"}
+,{"stream_name":"stdout","time":5817.537232099,"data":"bước 1450/3000 | loss (seg\u003e=1) 2.9697 | 92.6 phút\n"}
+,{"stream_name":"stdout","time":5852.735723379,"data":"bước 1460/3000 | loss (seg\u003e=1) 2.9543 | 93.2 phút\n"}
+,{"stream_name":"stdout","time":5888.06218318,"data":"bước 1470/3000 | loss (seg\u003e=1) 2.9401 | 93.8 phút\n"}
+,{"stream_name":"stdout","time":5923.32191334,"data":"bước 1480/3000 | loss (seg\u003e=1) 2.9184 | 94.4 phút\n"}
+,{"stream_name":"stdout","time":5958.928094644,"data":"bước 1490/3000 | loss (seg\u003e=1) 2.9336 | 95.0 phút\n"}
+,{"stream_name":"stdout","time":5994.495816722,"data":"bước 1500/3000 | loss (seg\u003e=1) 2.8133 | 95.6 phút\n"}
+,{"stream_name":"stdout","time":6030.065499293,"data":"bước 1510/3000 | loss (seg\u003e=1) 2.9639 | 96.2 phút\n"}
+,{"stream_name":"stdout","time":6065.313110724,"data":"bước 1520/3000 | loss (seg\u003e=1) 2.9485 | 96.8 phút\n"}
+,{"stream_name":"stdout","time":6100.462681047,"data":"bước 1530/3000 | loss (seg\u003e=1) 3.0716 | 97.4 phút\n"}
+,{"stream_name":"stdout","time":6135.573077167,"data":"bước 1540/3000 | loss (seg\u003e=1) 2.9564 | 97.9 phút\n"}
+,{"stream_name":"stdout","time":6170.929573169,"data":"bước 1550/3000 | loss (seg\u003e=1) 2.9959 | 98.5 phút\n"}
+,{"stream_name":"stdout","time":6206.194838172,"data":"bước 1560/3000 | loss (seg\u003e=1) 2.7813 | 99.1 phút\n"}
+,{"stream_name":"stdout","time":6241.381176023,"data":"bước 1570/3000 | loss (seg\u003e=1) 2.8558 | 99.7 phút\n"}
+,{"stream_name":"stdout","time":6276.796294828,"data":"bước 1580/3000 | loss (seg\u003e=1) 2.9382 | 100.3 phút\n"}
+,{"stream_name":"stdout","time":6312.289841779,"data":"bước 1590/3000 | loss (seg\u003e=1) 2.9878 | 100.9 phút\n"}
+,{"stream_name":"stdout","time":6347.506736318,"data":"bước 1600/3000 | loss (seg\u003e=1) 2.9286 | 101.5 phút\n"}
+,{"stream_name":"stdout","time":6407.269412023,"data":"  [eval] mem 2.8871 | reset 2.8964 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0093\n"}
+,{"stream_name":"stdout","time":6443.27849437,"data":"bước 1610/3000 | loss (seg\u003e=1) 2.8815 | 103.1 phút\n"}
+,{"stream_name":"stdout","time":6478.907446757,"data":"bước 1620/3000 | loss (seg\u003e=1) 2.8333 | 103.7 phút\n"}
+,{"stream_name":"stdout","time":6514.690095922,"data":"bước 1630/3000 | loss (seg\u003e=1) 2.8649 | 104.3 phút\n"}
+,{"stream_name":"stdout","time":6550.399284246,"data":"bước 1640/3000 | loss (seg\u003e=1) 2.8925 | 104.9 phút\n"}
+,{"stream_name":"stdout","time":6586.154119502,"data":"bước 1650/3000 | loss (seg\u003e=1) 2.8231 | 105.5 phút\n"}
+,{"stream_name":"stdout","time":6621.747885036,"data":"bước 1660/3000 | loss (seg\u003e=1) 3.0006 | 106.0 phút\n"}
+,{"stream_name":"stdout","time":6657.148504356,"data":"bước 1670/3000 | loss (seg\u003e=1) 3.0628 | 106.6 phút\n"}
+,{"stream_name":"stdout","time":6692.59122773,"data":"bước 1680/3000 | loss (seg\u003e=1) 2.9302 | 107.2 phút\n"}
+,{"stream_name":"stdout","time":6727.921109334,"data":"bước 1690/3000 | loss (seg\u003e=1) 3.0855 | 107.8 phút\n"}
+,{"stream_name":"stdout","time":6763.163911036,"data":"bước 1700/3000 | loss (seg\u003e=1) 2.8723 | 108.4 phút\n"}
+,{"stream_name":"stdout","time":6798.585618973,"data":"bước 1710/3000 | loss (seg\u003e=1) 2.9430 | 109.0 phút\n"}
+,{"stream_name":"stdout","time":6833.956831253,"data":"bước 1720/3000 | loss (seg\u003e=1) 2.8447 | 109.6 phút\n"}
+,{"stream_name":"stdout","time":6869.260502475,"data":"bước 1730/3000 | loss (seg\u003e=1) 2.9095 | 110.2 phút\n"}
+,{"stream_name":"stdout","time":6904.676721822,"data":"bước 1740/3000 | loss (seg\u003e=1) 2.9732 | 110.8 phút\n"}
+,{"stream_name":"stdout","time":6940.24611053,"data":"bước 1750/3000 | loss (seg\u003e=1) 3.0908 | 111.4 phút\n"}
+,{"stream_name":"stdout","time":6975.587511281,"data":"bước 1760/3000 | loss (seg\u003e=1) 2.8398 | 111.9 phút\n"}
+,{"stream_name":"stdout","time":7011.045017493,"data":"bước 1770/3000 | loss (seg\u003e=1) 2.8982 | 112.5 phút\n"}
+,{"stream_name":"stdout","time":7046.202553187,"data":"bước 1780/3000 | loss (seg\u003e=1) 2.8272 | 113.1 phút\n"}
+,{"stream_name":"stdout","time":7081.589052445,"data":"bước 1790/3000 | loss (seg\u003e=1) 2.9367 | 113.7 phút\n"}
+,{"stream_name":"stdout","time":7116.715252208,"data":"bước 1800/3000 | loss (seg\u003e=1) 2.8327 | 114.3 phút\n"}
+,{"stream_name":"stdout","time":7176.278097356,"data":"  [eval] mem 2.8843 | reset 2.8959 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0116\n"}
+,{"stream_name":"stdout","time":7211.446938676,"data":"bước 1810/3000 | loss (seg\u003e=1) 2.9094 | 115.9 phút\n"}
+,{"stream_name":"stdout","time":7246.612974914,"data":"bước 1820/3000 | loss (seg\u003e=1) 2.8092 | 116.5 phút\n"}
+,{"stream_name":"stdout","time":7281.606357304,"data":"bước 1830/3000 | loss (seg\u003e=1) 3.0382 | 117.0 phút\n"}
+,{"stream_name":"stdout","time":7316.374746238,"data":"bước 1840/3000 | loss (seg\u003e=1) 2.8130 | 117.6 phút\n"}
+,{"stream_name":"stdout","time":7351.168272819,"data":"bước 1850/3000 | loss (seg\u003e=1) 2.9186 | 118.2 phút\n"}
+,{"stream_name":"stdout","time":7385.971337051,"data":"bước 1860/3000 | loss (seg\u003e=1) 2.9390 | 118.8 phút\n"}
+,{"stream_name":"stdout","time":7421.092038531,"data":"bước 1870/3000 | loss (seg\u003e=1) 2.8788 | 119.4 phút\n"}
+,{"stream_name":"stdout","time":7456.324069481,"data":"bước 1880/3000 | loss (seg\u003e=1) 2.9513 | 120.0 phút\n"}
+,{"stream_name":"stdout","time":7491.951526674,"data":"bước 1890/3000 | loss (seg\u003e=1) 2.8872 | 120.5 phút\n"}
+,{"stream_name":"stdout","time":7527.227824205,"data":"bước 1900/3000 | loss (seg\u003e=1) 2.9003 | 121.1 phút\n"}
+,{"stream_name":"stdout","time":7562.881857783,"data":"bước 1910/3000 | loss (seg\u003e=1) 3.1361 | 121.7 phút\n"}
+,{"stream_name":"stdout","time":7597.895718389,"data":"bước 1920/3000 | loss (seg\u003e=1) 2.8004 | 122.3 phút\n"}
+,{"stream_name":"stdout","time":7633.0244655,"data":"bước 1930/3000 | loss (seg\u003e=1) 2.8982 | 122.9 phút\n"}
+,{"stream_name":"stdout","time":7667.969872288,"data":"bước 1940/3000 | loss (seg\u003e=1) 2.7645 | 123.5 phút\n"}
+,{"stream_name":"stdout","time":7703.206079512,"data":"bước 1950/3000 | loss (seg\u003e=1) 2.7679 | 124.1 phút\n"}
+,{"stream_name":"stdout","time":7738.92451968,"data":"bước 1960/3000 | loss (seg\u003e=1) 2.8276 | 124.7 phút\n"}
+,{"stream_name":"stdout","time":7774.5703417,"data":"bước 1970/3000 | loss (seg\u003e=1) 2.9393 | 125.3 phút\n"}
+,{"stream_name":"stdout","time":7809.668892496,"data":"bước 1980/3000 | loss (seg\u003e=1) 2.9051 | 125.8 phút\n"}
+,{"stream_name":"stdout","time":7844.798727478,"data":"bước 1990/3000 | loss (seg\u003e=1) 2.8823 | 126.4 phút\n"}
+,{"stream_name":"stdout","time":7879.864030179,"data":"bước 2000/3000 | loss (seg\u003e=1) 2.8450 | 127.0 phút\n"}
+,{"stream_name":"stdout","time":7939.320636901,"data":"  [eval] mem 2.8815 | reset 2.8968 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0154\n"}
+,{"stream_name":"stdout","time":7974.23063579,"data":"bước 2010/3000 | loss (seg\u003e=1) 2.9266 | 128.6 phút\n"}
+,{"stream_name":"stdout","time":8009.274687096,"data":"bước 2020/3000 | loss (seg\u003e=1) 3.0297 | 129.2 phút\n"}
+,{"stream_name":"stdout","time":8044.137195202,"data":"bước 2030/3000 | loss (seg\u003e=1) 2.8567 | 129.8 phút\n"}
+,{"stream_name":"stdout","time":8079.047238902,"data":"bước 2040/3000 | loss (seg\u003e=1) 2.8866 | 130.3 phút\n"}
+,{"stream_name":"stdout","time":8114.221850884,"data":"bước 2050/3000 | loss (seg\u003e=1) 2.9657 | 130.9 phút\n"}
+,{"stream_name":"stdout","time":8149.087018181,"data":"bước 2060/3000 | loss (seg\u003e=1) 2.8691 | 131.5 phút\n"}
+,{"stream_name":"stdout","time":8184.061516047,"data":"bước 2070/3000 | loss (seg\u003e=1) 2.7914 | 132.1 phút\n"}
+,{"stream_name":"stdout","time":8218.956580664,"data":"bước 2080/3000 | loss (seg\u003e=1) 2.7682 | 132.7 phút\n"}
+,{"stream_name":"stdout","time":8254.025357352,"data":"bước 2090/3000 | loss (seg\u003e=1) 2.7937 | 133.2 phút\n"}
+,{"stream_name":"stdout","time":8289.257622264,"data":"bước 2100/3000 | loss (seg\u003e=1) 2.8301 | 133.8 phút\n"}
+,{"stream_name":"stdout","time":8324.223597333,"data":"bước 2110/3000 | loss (seg\u003e=1) 2.9799 | 134.4 phút\n"}
+,{"stream_name":"stdout","time":8359.109937266,"data":"bước 2120/3000 | loss (seg\u003e=1) 2.8763 | 135.0 phút\n"}
+,{"stream_name":"stdout","time":8394.054330098,"data":"bước 2130/3000 | loss (seg\u003e=1) 2.9456 | 135.6 phút\n"}
+,{"stream_name":"stdout","time":8429.039322059,"data":"bước 2140/3000 | loss (seg\u003e=1) 2.8722 | 136.2 phút\n"}
+,{"stream_name":"stdout","time":8465.102803459,"data":"bước 2150/3000 | loss (seg\u003e=1) 2.9623 | 136.8 phút\n"}
+,{"stream_name":"stdout","time":8500.692187182,"data":"bước 2160/3000 | loss (seg\u003e=1) 3.0146 | 137.4 phút\n"}
+,{"stream_name":"stdout","time":8536.011664615,"data":"bước 2170/3000 | loss (seg\u003e=1) 2.8422 | 137.9 phút\n"}
+,{"stream_name":"stdout","time":8571.249739419,"data":"bước 2180/3000 | loss (seg\u003e=1) 2.9462 | 138.5 phút\n"}
+,{"stream_name":"stdout","time":8606.53041564,"data":"bước 2190/3000 | loss (seg\u003e=1) 2.9009 | 139.1 phút\n"}
+,{"stream_name":"stdout","time":8642.274696408,"data":"bước 2200/3000 | loss (seg\u003e=1) 2.9339 | 139.7 phút\n"}
+,{"stream_name":"stdout","time":8702.059592423,"data":"  [eval] mem 2.8792 | reset 2.8962 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0170\n"}
+,{"stream_name":"stdout","time":8737.323178284,"data":"bước 2210/3000 | loss (seg\u003e=1) 3.0728 | 141.3 phút\n"}
+,{"stream_name":"stdout","time":8772.765066393,"data":"bước 2220/3000 | loss (seg\u003e=1) 2.9611 | 141.9 phút\n"}
+,{"stream_name":"stdout","time":8808.29762091,"data":"bước 2230/3000 | loss (seg\u003e=1) 2.8611 | 142.5 phút\n"}
+,{"stream_name":"stdout","time":8843.651468526,"data":"bước 2240/3000 | loss (seg\u003e=1) 2.8794 | 143.1 phút\n"}
+,{"stream_name":"stdout","time":8878.952655645,"data":"bước 2250/3000 | loss (seg\u003e=1) 2.8198 | 143.7 phút\n"}
+,{"stream_name":"stdout","time":8914.466101843,"data":"bước 2260/3000 | loss (seg\u003e=1) 2.8768 | 144.3 phút\n"}
+,{"stream_name":"stdout","time":8949.850590564,"data":"bước 2270/3000 | loss (seg\u003e=1) 2.9313 | 144.8 phút\n"}
+,{"stream_name":"stdout","time":8985.109165847,"data":"bước 2280/3000 | loss (seg\u003e=1) 2.9288 | 145.4 phút\n"}
+,{"stream_name":"stdout","time":9020.497301776,"data":"bước 2290/3000 | loss (seg\u003e=1) 2.9230 | 146.0 phút\n"}
+,{"stream_name":"stdout","time":9055.904992024,"data":"bước 2300/3000 | loss (seg\u003e=1) 2.8904 | 146.6 phút\n"}
+,{"stream_name":"stdout","time":9091.25749054,"data":"bước 2310/3000 | loss (seg\u003e=1) 2.9720 | 147.2 phút\n"}
+,{"stream_name":"stdout","time":9126.666780809,"data":"bước 2320/3000 | loss (seg\u003e=1) 3.0505 | 147.8 phút\n"}
+,{"stream_name":"stdout","time":9162.219024976,"data":"bước 2330/3000 | loss (seg\u003e=1) 3.0189 | 148.4 phút\n"}
+,{"stream_name":"stdout","time":9197.602520836,"data":"bước 2340/3000 | loss (seg\u003e=1) 2.7808 | 149.0 phút\n"}
+,{"stream_name":"stdout","time":9232.830701093,"data":"bước 2350/3000 | loss (seg\u003e=1) 2.8148 | 149.6 phút\n"}
+,{"stream_name":"stdout","time":9268.205516103,"data":"bước 2360/3000 | loss (seg\u003e=1) 2.8762 | 150.2 phút\n"}
+,{"stream_name":"stdout","time":9303.448867642,"data":"bước 2370/3000 | loss (seg\u003e=1) 2.7845 | 150.7 phút\n"}
+,{"stream_name":"stdout","time":9338.65119257,"data":"bước 2380/3000 | loss (seg\u003e=1) 2.8792 | 151.3 phút\n"}
+,{"stream_name":"stdout","time":9374.007059658,"data":"bước 2390/3000 | loss (seg\u003e=1) 2.9335 | 151.9 phút\n"}
+,{"stream_name":"stdout","time":9409.324167174,"data":"bước 2400/3000 | loss (seg\u003e=1) 2.8428 | 152.5 phút\n"}
+,{"stream_name":"stdout","time":9469.077900943,"data":"  [eval] mem 2.8771 | reset 2.8942 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0171\n"}
+,{"stream_name":"stdout","time":9504.30423475,"data":"bước 2410/3000 | loss (seg\u003e=1) 2.8568 | 154.1 phút\n"}
+,{"stream_name":"stdout","time":9539.471520136,"data":"bước 2420/3000 | loss (seg\u003e=1) 2.8741 | 154.7 phút\n"}
+,{"stream_name":"stdout","time":9574.687347152,"data":"bước 2430/3000 | loss (seg\u003e=1) 2.8130 | 155.3 phút\n"}
+,{"stream_name":"stdout","time":9609.680371946,"data":"bước 2440/3000 | loss (seg\u003e=1) 2.7397 | 155.8 phút\n"}
+,{"stream_name":"stdout","time":9644.635122344,"data":"bước 2450/3000 | loss (seg\u003e=1) 2.6623 | 156.4 phút\n"}
+,{"stream_name":"stdout","time":9679.908685864,"data":"bước 2460/3000 | loss (seg\u003e=1) 2.9850 | 157.0 phút\n"}
+,{"stream_name":"stdout","time":9715.219568656,"data":"bước 2470/3000 | loss (seg\u003e=1) 2.8598 | 157.6 phút\n"}
+,{"stream_name":"stdout","time":9750.659735466,"data":"bước 2480/3000 | loss (seg\u003e=1) 2.8991 | 158.2 phút\n"}
+,{"stream_name":"stdout","time":9785.799535383,"data":"bước 2490/3000 | loss (seg\u003e=1) 2.8175 | 158.8 phút\n"}
+,{"stream_name":"stdout","time":9821.478927079,"data":"bước 2500/3000 | loss (seg\u003e=1) 2.8098 | 159.4 phút\n"}
+,{"stream_name":"stdout","time":9856.7486026,"data":"bước 2510/3000 | loss (seg\u003e=1) 2.8109 | 160.0 phút\n"}
+,{"stream_name":"stdout","time":9891.971945859,"data":"bước 2520/3000 | loss (seg\u003e=1) 2.9525 | 160.5 phút\n"}
+,{"stream_name":"stdout","time":9927.119515057,"data":"bước 2530/3000 | loss (seg\u003e=1) 2.7452 | 161.1 phút\n"}
+,{"stream_name":"stdout","time":9962.550856801,"data":"bước 2540/3000 | loss (seg\u003e=1) 2.9564 | 161.7 phút\n"}
+,{"stream_name":"stdout","time":9997.605661145,"data":"bước 2550/3000 | loss (seg\u003e=1) 3.0072 | 162.3 phút\n"}
+,{"stream_name":"stdout","time":10032.798010955,"data":"bước 2560/3000 | loss (seg\u003e=1) 2.8821 | 162.9 phút\n"}
+,{"stream_name":"stdout","time":10067.94229488,"data":"bước 2570/3000 | loss (seg\u003e=1) 2.9719 | 163.5 phút\n"}
+,{"stream_name":"stdout","time":10103.240542923,"data":"bước 2580/3000 | loss (seg\u003e=1) 2.8958 | 164.1 phút\n"}
+,{"stream_name":"stdout","time":10138.619434403,"data":"bước 2590/3000 | loss (seg\u003e=1) 2.7963 | 164.7 phút\n"}
+,{"stream_name":"stdout","time":10174.25447726,"data":"bước 2600/3000 | loss (seg\u003e=1) 2.8890 | 165.3 phút\n"}
+,{"stream_name":"stdout","time":10233.940001236,"data":"  [eval] mem 2.8752 | reset 2.8921 | backbone thuần 2.9461 | lợi ích của quá khứ qua memory (reset-mem): +0.0169\n"}
+,{"stream_name":"stdout","time":10269.169414965,"data":"bước 2610/3000 | loss (seg\u003e=1) 2.9857 | 166.8 phút\n"}
+,{"stream_name":"stdout","time":10304.30068567,"data":"bước 2620/3000 | loss (seg\u003e=1) 2.7904 | 167.4 phút\n"}
+,{"stream_name":"stdout","time":10339.338815715,"data":"bước 2630/3000 | loss (seg\u003e=1) 2.8906 | 168.0 phút\n"}
+,{"stream_name":"stdout","time":10374.630499132,"data":"bước 2640/3000 | loss (seg\u003e=1) 2.8780 | 168.6 phút\n"}
+,{"stream_name":"stdout","time":10409.644614383,"data":"bước 2650/3000 | loss (seg\u003e=1) 2.9668 | 169.2 phút\n"}
+,{"stream_name":"stdout","time":10444.840844545,"data":"bước 2660/3000 | loss (seg\u003e=1) 3.0253 | 169.8 phút\n"}
+,{"stream_name":"stdout","time":10462.308745896,"data":"Hết thời gian cho phép, dừng và lưu checkpoint.\n"}
+,{"stream_name":"stdout","time":10462.308793708,"data":"Đã lưu checkpoint tại /kaggle/working/ckpt_titans | bước 2665\n"}
+,{"stream_name":"stdout","time":10522.045222129,"data":"{'mem': 2.8747, 'reset': 2.8923, 'base': 2.9461} (trung bình trên các segment từ thứ 2)\n"}
+,{"stream_name":"stdout","time":10524.767201815,"data":"Checksum backbone  trước: 7274291.262040 | sau: 7274291.262040 | đổi: False\n"}
+,{"stream_name":"stdout","time":10524.76724675,"data":"Checksum outer mem trước: 62930.334920 | sau: 62930.334920 | đổi: False\n"}
+,{"stream_name":"stdout","time":10524.767252737,"data":"Fast-weight đã dịch chuyển tới 1.0009 lần chuẩn ban đầu (0 = không đổi).\n"}
+,{"stream_name":"stdout","time":10526.892698144,"data":"loss trung bình (đoạn hiển thị): backbone thuần 3.464 | có memory 3.382\n"}
+,{"stream_name":"stdout","time":10527.093216392,"data":"Độ dài ngữ cảnh (token): 1832 | cửa sổ backbone: 256\n"}
+,{"stream_name":"stdout","time":10528.841429424,"data":"Cửa sổ thường (không thấy sự kiện)         | log P(đáp án) =  -12.278 | P = 4.655e-06 | top-1 đúng: False\n"}
+,{"stream_name":"stdout","time":10530.12150825,"data":"Memory (titans)                            | log P(đáp án) =  -12.126 | P = 5.417e-06 | top-1 đúng: False\n"}
+,{"stream_name":"stdout","time":10530.602764626,"data":"Toàn bộ ngữ cảnh trong cửa sổ              | log P(đáp án) =   -1.375 | P = 0.2527 | top-1 đúng: True\n"}
+,{"stream_name":"stdout","time":10530.667162866,"data":"Chưa nhập DOC_TEXT/PROMPT2/ANSWER2, bỏ qua mục này.\n"}
+,{"stream_name":"stdout","time":10530.729991259,"data":"/kaggle/working/ckpt_titans/titans_vi_memory.pt | kích thước MB: 7.6\n"}
+,{"stream_name":"stderr","time":10536.768725116,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10536.768765658,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10536.997841053,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10536.997897089,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10537.906905537,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":10538.047448883,"data":"[NbConvertApp] Writing 487220 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":10540.626366159,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10541.418577241,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":10541.41861514,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":10541.418941868,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":10541.419317776,"data":"[NbConvertApp] Writing 614747 bytes to __results__.html\n"}
+]

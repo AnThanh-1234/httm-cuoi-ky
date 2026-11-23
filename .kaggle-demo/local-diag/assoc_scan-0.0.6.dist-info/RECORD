@@ -1,0 +1,11 @@
+assoc_scan-0.0.6.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+assoc_scan-0.0.6.dist-info/METADATA,sha256=nc9fgqqfsRd_l8vZfknQ72j60B7uTrOVMt3aWiRBpC0,2885
+assoc_scan-0.0.6.dist-info/RECORD,,
+assoc_scan-0.0.6.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assoc_scan-0.0.6.dist-info/WHEEL,sha256=YVMoNqKzERt-wjUZwJ33xBGAwnFl-4cqbYkTtWa4itE,91
+assoc_scan-0.0.6.dist-info/licenses/LICENSE,sha256=1yCiA9b5nhslTavxPjsQAO-wpOnwJR9-l8LTVi7GJuk,1066
+assoc_scan-0.0.6.dist-info/top_level.txt,sha256=jKN2q_jvlwfE4X4UnPUiiBfNFzzdvS0ajZi0sCT50NE,11
+assoc_scan/__init__.py,sha256=0fvbQCWYspeYgaZo_tRE4_UEZve9ChqbcOZHXSBJ_Mg,44
+assoc_scan/__pycache__/__init__.cpython-310.pyc,,
+assoc_scan/__pycache__/assoc_scan.cpython-310.pyc,,
+assoc_scan/assoc_scan.py,sha256=LtykvOFgTmNpnWekpR4ALgDgm2M_jn-GgYoVnG6T0Io,6964

@@ -1,0 +1,29 @@
+2026-11-23T18:57:38 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T18:57:40 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T18:58:26 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T18:58:28 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T18:59:16 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T18:59:18 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:00:04 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T19:00:07 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:00:55 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T19:00:58 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:01:44 nguyenphanthanhan/titans-vi-memory-demo-run has status "KernelWorkerStatus.RUNNING"
+2026-11-23T19:01:47 nguyenphanthanhan/ttt-linear-vi-memory-demo-run has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:02:16 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:03:20 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:04:23 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:05:27 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:06:30 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:07:34 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:08:37 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:09:40 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:10:43 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:11:47 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:12:50 Kernel push error: Maximum batch GPU session count of 2 reached.
+2026-11-23T19:13:28 hoaiphan1978/titans-vi-memory-stable has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:13:29 hoaiphan1978/ttt-linear-vi-memory-parallel has status "KernelWorkerStatus.RUNNING"
+2026-11-23T19:14:17 hoaiphan1978/titans-vi-memory-stable has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:14:19 hoaiphan1978/ttt-linear-vi-memory-parallel has status "KernelWorkerStatus.RUNNING"
+2026-11-23T19:15:06 hoaiphan1978/titans-vi-memory-stable has status "KernelWorkerStatus.QUEUED"
+2026-11-23T19:15:08 hoaiphan1978/ttt-linear-vi-memory-parallel has status "KernelWorkerStatus.RUNNING"

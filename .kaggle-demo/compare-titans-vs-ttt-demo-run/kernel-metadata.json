@@ -1,0 +1,18 @@
+{
+  "id": "nguyenphanthanhan/compare-titans-vs-ttt-demo-run",
+  "title": "Compare Titans vs TTT Demo Run",
+  "code_file": "compare_titans_vs_ttt_kaggle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "nguyenphanthanhan/ttt-vi-memory-v2-checkpoint"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "nguyenphanthanhan/titans-vi-memory-demo-run"
+  ]
+}
