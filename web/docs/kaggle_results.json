@@ -1,0 +1,26 @@
+{
+  "source": "log 'compare-titans-vs-ttt-kaggle-run' (Kaggle, GPU, DEBUG=False), 2026-11-24",
+  "backbone": "Qwen/Qwen2.5-0.5B (fp16, frozen, 494.0M params)",
+  "setup": {"seg_len": 256, "n_segs": 8, "mem_chunk": 16, "heads": 4, "train_steps": 3000, "train_tokens_M": 12.3, "eval_docs": 24},
+  "best_eval_loss": {"titans": 2.8731, "ttt_linear": 2.8390},
+  "eval_loss": {
+    "titans":     {"base": 2.9461, "reset": 2.8926, "memory": 2.8731, "benefit_reset_minus_memory": 0.0195, "gain_vs_base": 0.0730},
+    "ttt_linear": {"base": 2.9461, "reset": 2.9022, "memory": 2.8390, "benefit_reset_minus_memory": 0.0632, "gain_vs_base": 0.1071}
+  },
+  "cost": {
+    "titans":     {"train_params_M": 1.90, "fast_weights_k": 131.1, "ms_per_segment": 171.6, "peak_MB": 2185, "fast_weight_MB": 0.52},
+    "ttt_linear": {"train_params_M": 1.74, "fast_weights_k": 16.6,  "ms_per_segment": 84.7,  "peak_MB": 2174, "fast_weight_MB": 0.07},
+    "qwen_plain": {"ms_per_segment": 78.6},
+    "kv_cache_MB_1024_tokens": 12.6
+  },
+  "weight_displacement_vs_init": {"titans": 1.000, "ttt_linear": 2.890,
+    "note": "Titans ~1.000 khớp với forgetting gate mặc định ~0.51/chunk; chưa kiểm chứng trên gate đã train. Thang đo hai loại khác nhau, chỉ tham khảo."},
+  "invented_fact_recall": {
+    "distances_segments": [0, 1, 2, 4, 7], "n_facts_per_distance": 12,
+    "window":     {"logp": [-11.29, -11.68, -11.44, -11.2, -11.79], "top1": [0, 0, 0, 0, 0]},
+    "titans":     {"logp": [-11.11, -11.37, -11.1, -10.83, -11.56],  "top1": [0, 0, 0, 0, 0]},
+    "ttt_linear": {"logp": [-11.31, -11.34, -10.9, -10.71, -11.25],  "top1": [0, 0, 0, 0, 0]},
+    "full_context": {"logp": [-1.11, -0.7, -0.72, -0.8, -0.83],      "top1": [1, 1, 1, 1, 1]}
+  },
+  "conclusion": "Cả hai memory giảm loss trên Wikipedia nhưng CHƯA truy xuất được sự kiện bịa (top-1 = 0/12, logP ~ cửa sổ thường). Chỉ full-context làm được."
+}

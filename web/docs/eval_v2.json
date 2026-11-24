@@ -1,0 +1,246 @@
+{
+  "source": "Titans v2 fact-mix run on Kaggle GPU; single training seed; held-out synthetic retrieval facts",
+  "backbone": "Qwen/Qwen2.5-0.5B",
+  "setup": {
+    "seg_len": 256,
+    "n_segs": 9,
+    "mem_chunk": 16,
+    "heads": 4,
+    "train_steps": 3000,
+    "train_seed": 42,
+    "fact_answer_weight": 8.0,
+    "titans_kwargs": {
+      "init_decay_bias": -5.0,
+      "init_momentum_bias": 2.0,
+      "init_adaptive_step_bias": 0.0,
+      "qk_rmsnorm": true,
+      "max_grad_norm": 1.0
+    },
+    "titans_inner_lr_cap": 0.01,
+    "alpha_mean": 0.027918914332985878,
+    "eta_mean": 0.003797254990786314,
+    "momentum_mean": 0.4385864734649658,
+    "outer_gate": 0.3597964644432068
+  },
+  "validation": {
+    "facts": [
+      {
+        "name": "Avenor",
+        "metal": "Silex",
+        "value": "4,18"
+      },
+      {
+        "name": "Brelka",
+        "metal": "Tormin",
+        "value": "8,42"
+      },
+      {
+        "name": "Cindrel",
+        "metal": "Ulvax",
+        "value": "2,67"
+      },
+      {
+        "name": "Dovira",
+        "metal": "Praxen",
+        "value": "6,35"
+      }
+    ],
+    "seeds": [
+      17,
+      29
+    ],
+    "by_distance": {
+      "2": {
+        "top1": 0.375,
+        "mrr": 0.6354166666666666
+      },
+      "4": {
+        "top1": 0.375,
+        "mrr": 0.6145833333333333
+      }
+    }
+  },
+  "test": {
+    "facts": [
+      {
+        "name": "Elarin",
+        "metal": "Quorite",
+        "value": "1,26"
+      },
+      {
+        "name": "Fensal",
+        "metal": "Mordane",
+        "value": "3,84"
+      },
+      {
+        "name": "Gavrik",
+        "metal": "Nexium",
+        "value": "5,19"
+      },
+      {
+        "name": "Helvra",
+        "metal": "Orralite",
+        "value": "7,53"
+      },
+      {
+        "name": "Istren",
+        "metal": "Peldor",
+        "value": "9,28"
+      },
+      {
+        "name": "Jorvik",
+        "metal": "Ruvane",
+        "value": "2,91"
+      },
+      {
+        "name": "Kelmor",
+        "metal": "Sarnite",
+        "value": "4,63"
+      },
+      {
+        "name": "Luneth",
+        "metal": "Tavrite",
+        "value": "6,07"
+      },
+      {
+        "name": "Mavren",
+        "metal": "Uldane",
+        "value": "8,34"
+      },
+      {
+        "name": "Norell",
+        "metal": "Vaskor",
+        "value": "1,79"
+      },
+      {
+        "name": "Orvane",
+        "metal": "Wexite",
+        "value": "3,52"
+      },
+      {
+        "name": "Praxil",
+        "metal": "Yondrel",
+        "value": "5,96"
+      }
+    ],
+    "seeds": [
+      17,
+      29
+    ],
+    "by_distance": {
+      "0": {
+        "top1": 0.375,
+        "top1_ci95": [
+          0.20729166666666674,
+          0.5833333333333334
+        ],
+        "mrr": 0.5763888888888888,
+        "mean_gold_logp": -18.049769798914593,
+        "n": 24
+      },
+      "1": {
+        "top1": 0.4166666666666667,
+        "top1_ci95": [
+          0.20833333333333334,
+          0.625
+        ],
+        "mrr": 0.6145833333333334,
+        "mean_gold_logp": -18.22849138577779,
+        "n": 24
+      },
+      "2": {
+        "top1": 0.16666666666666666,
+        "top1_ci95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "mrr": 0.4583333333333333,
+        "mean_gold_logp": -18.36604078610738,
+        "n": 24
+      },
+      "4": {
+        "top1": 0.16666666666666666,
+        "top1_ci95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "mrr": 0.45138888888888884,
+        "mean_gold_logp": -17.9117910861969,
+        "n": 24
+      },
+      "7": {
+        "top1": 0.20833333333333334,
+        "top1_ci95": [
+          0.041666666666666664,
+          0.375
+        ],
+        "mrr": 0.4548611111111111,
+        "mean_gold_logp": -17.127100388209026,
+        "n": 24
+      }
+    }
+  },
+  "eval_loss": {
+    "titans": {
+      "memory": 2.7972443501154585,
+      "reset": 2.8297535826762514,
+      "base": 2.900705923636754,
+      "benefit_reset_minus_memory": 0.03250923256079297
+    }
+  },
+  "invented_fact_recall": {
+    "distances_segments": [
+      0,
+      1,
+      2,
+      4,
+      7
+    ],
+    "n_facts_per_distance": 12,
+    "titans": {
+      "logp": [
+        -18.049769798914593,
+        -18.22849138577779,
+        -18.36604078610738,
+        -17.9117910861969,
+        -17.127100388209026
+      ],
+      "top1": [
+        0.375,
+        0.4166666666666667,
+        0.16666666666666666,
+        0.16666666666666666,
+        0.20833333333333334
+      ],
+      "mrr": [
+        0.5763888888888888,
+        0.6145833333333334,
+        0.4583333333333333,
+        0.45138888888888884,
+        0.4548611111111111
+      ],
+      "top1_ci95": [
+        [
+          0.20729166666666674,
+          0.5833333333333334
+        ],
+        [
+          0.20833333333333334,
+          0.625
+        ],
+        [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        [
+          0.041666666666666664,
+          0.375
+        ]
+      ]
+    }
+  }
+}
