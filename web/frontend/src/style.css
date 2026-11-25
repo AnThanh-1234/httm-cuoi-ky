@@ -62,3 +62,12 @@
 .source-pill{color:var(--source-text);border-color:var(--source-border);background:var(--source-bg)}
 .kaggle-card>p strong{color:var(--kaggle-highlight)}
 code{color:var(--code)}
+
+.answer-output { white-space: pre-wrap; line-height: 1.75; font-size: 1.04rem; color: var(--ink, #17352f); padding: 22px; min-height: 120px; }
+
+
+.answer-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.answer-card { min-width: 0; }
+.answer-card-title { display: flex; justify-content: space-between; align-items: center; padding: 18px 20px 0; color: var(--ink, #17352f); }
+@media (max-width: 760px) { .answer-pair { grid-template-columns: 1fr; } }
+

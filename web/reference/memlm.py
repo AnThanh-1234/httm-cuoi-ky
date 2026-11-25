@@ -186,6 +186,35 @@ class Engine:
             r["rank"] = i + 1
         return rows
 
+    @torch.no_grad()
+    def generate(self, mode, prompt_ids, state=None, context_ids=None, max_new_tokens=64):
+        """Autoregressively generate an answer; the ingested memory state stays immutable."""
+        if not 1 <= max_new_tokens <= 128:
+            raise ValueError("max_new_tokens must be between 1 and 128")
+        pr = torch.as_tensor(prompt_ids, dtype=torch.long)
+        if len(pr) == 0:
+            raise ValueError("prompt must not be empty")
+        if mode == "full":
+            ctx = torch.as_tensor(context_ids if context_ids is not None else [], dtype=torch.long)[-(self.seg_len * 8):]
+            seq = torch.cat([ctx, pr])
+            self._set(None, enabled=False)
+        elif mode == "window":
+            seq = pr
+            self._set(None, enabled=False)
+        else:
+            if mode not in self.adapters:
+                raise ValueError(f"Unknown adapter: {mode}")
+            seq = pr
+            self._set(mode, state, True, False)
+        try:
+            result = self.lm.generate(input_ids=seq[None].to(self.device), max_new_tokens=max_new_tokens,
+                                      do_sample=False, use_cache=True,
+                                      pad_token_id=getattr(self.lm.config, "eos_token_id", None))
+            return result[0, len(seq):].detach().cpu().tolist()
+        finally:
+            for adapter in self.adapters.values():
+                adapter._enabled = False
+
 
 def load_adapter(lm, ckpt_path, device="cpu"):
     blob = torch.load(ckpt_path, map_location=device)

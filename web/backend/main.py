@@ -29,7 +29,7 @@ MODES = ["window", "full", "titans", "ttt_linear", "ttt_mlp"]
 class SessionIn(BaseModel): doc_text: str
 class IngestIn(BaseModel): kinds: list[str] = Field(default_factory=lambda: ["titans", "ttt_linear"]); trace: bool = True
 class ScoreIn(BaseModel): prompt: str; candidates: list[str]; gold_index: int | None = None; modes: list[str] = Field(default_factory=lambda: MODES[:4]); mean: bool = True
-class GenerateIn(BaseModel): prompt: str; modes: list[str] = MODES[:4]; max_new_tokens: int = 32
+class GenerateIn(BaseModel): prompt: str; modes: list[str] = Field(default_factory=lambda: ["titans"]); max_new_tokens: int = Field(default=64, ge=1, le=128)
 class BenchmarkIn(BaseModel): items: list[dict] = Field(default_factory=list); distances: list[int] = Field(default_factory=lambda: [0,1,2,4,7]); modes: list[str] = MODES[:4]; seeds: list[int] = Field(default_factory=lambda: [1,2])
 
 def tokens(text: str) -> list[str]: return text.split()
@@ -158,9 +158,27 @@ async def score(sid: str, body: ScoreIn):
     return {"session_id":sid,"results":result,"gold_index":body.gold_index,"mean_ranked":body.mean,"mock":MOCK}
 
 @app.post("/api/sessions/{sid}/generate")
-def generate(sid: str, body: GenerateIn):
-    if sid not in SESSIONS: raise HTTPException(404,"Không tìm thấy phiên.")
-    return {"warning":"Sinh tự do chỉ để minh họa, KHÔNG dùng để chấm.","mock":MOCK,"results":{m:"" for m in body.modes}}
+async def generate(sid: str, body: GenerateIn):
+    s=SESSIONS.get(sid)
+    if not s: raise HTTPException(404,"Không tìm thấy phiên.")
+    if not body.prompt.strip(): raise HTTPException(422,"Câu hỏi không được để trống.")
+    if not body.modes or any(m not in MODES for m in body.modes): raise HTTPException(422,"Mode không hợp lệ.")
+    if MOCK:
+        return {"warning":"Đây là dữ liệu mô phỏng, không phải câu trả lời từ mô hình.","mock":True,"results":{m:"[MOCK] Chế độ mô phỏng không sinh câu trả lời từ mô hình." for m in body.modes}}
+    async with GPU_LOCK:
+        loaded=get_engine(); eng=loaded["engine"]; tok=loaded["tokenizer"]
+        prompt_ids=tok.encode(body.prompt,add_special_tokens=False)
+        context_ids=tok.encode(s["doc_text"],add_special_tokens=False)
+        results={}
+        for mode in body.modes:
+            if mode not in {"window","full"} and mode not in s["states"]:
+                raise HTTPException(409,f"Chưa ingest tài liệu cho {mode}.")
+            try:
+                ids=eng.generate(mode,prompt_ids,s["states"].get(mode),context_ids,body.max_new_tokens)
+                results[mode]=tok.decode(ids,skip_special_tokens=True).strip()
+            except ValueError as e:
+                raise HTTPException(422,str(e)) from e
+    return {"warning":"Câu trả lời do mô hình tự sinh; hãy đối chiếu với tài liệu nguồn.","mock":False,"results":results}
 
 @app.get("/api/sessions/{sid}/diagnostics")
 def diagnostics(sid: str):
